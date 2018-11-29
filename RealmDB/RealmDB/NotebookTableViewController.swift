@@ -24,7 +24,6 @@ class NotebookTableViewController: UITableViewController {
     func loadData() {
         if let notebooks = NotesManager.shared.getNotebooks() {
             notebookArray = notebooks
-            
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }

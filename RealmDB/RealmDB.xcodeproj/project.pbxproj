@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A3B36FEC21B0940A00619C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B36FEB21B0940A00619C4C /* AppDelegate.swift */; };
-		A3B36FEE21B0940A00619C4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B36FED21B0940A00619C4C /* ViewController.swift */; };
-		A3B36FFE21B0947500619C4C /* NotebookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B36FFD21B0947500619C4C /* NotebookTableViewController.swift */; };
-		A3B3700521B0948600619C4C /* NotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B36FFF21B0948600619C4C /* NotesManager.swift */; };
-		A3B3700721B0948600619C4C /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3700221B0948600619C4C /* NoteViewController.swift */; };
-		A3B3700821B0948600619C4C /* RealmDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3700321B0948600619C4C /* RealmDataModel.swift */; };
-		A3B3700921B0948600619C4C /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3700421B0948600619C4C /* NoteTableViewController.swift */; };
 		A3B3700B21B094A900619C4C /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B3700A21B094A900619C4C /* assets.xcassets */; };
 		A3B3700E21B094D400619C4C /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B3700C21B094D400619C4C /* RealmSwift.framework */; };
 		A3B3700F21B094D400619C4C /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3B3700C21B094D400619C4C /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -21,6 +15,11 @@
 		A3B3701121B094D400619C4C /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3B3700D21B094D400619C4C /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A3B3701521B096C800619C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B3701321B096C800619C4C /* Main.storyboard */; };
 		A3B3701621B096C800619C4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B3701421B096C800619C4C /* LaunchScreen.storyboard */; };
+		A3B3702B21B0A6B700619C4C /* NotebookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3702621B0A6B600619C4C /* NotebookTableViewController.swift */; };
+		A3B3702C21B0A6B700619C4C /* RealmDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3702721B0A6B700619C4C /* RealmDataModel.swift */; };
+		A3B3702D21B0A6B700619C4C /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3702821B0A6B700619C4C /* NoteTableViewController.swift */; };
+		A3B3702E21B0A6B700619C4C /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3702921B0A6B700619C4C /* NoteViewController.swift */; };
+		A3B3702F21B0A6B700619C4C /* NotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3702A21B0A6B700619C4C /* NotesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,18 +40,17 @@
 /* Begin PBXFileReference section */
 		A3B36FE821B0940A00619C4C /* RealmDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B36FEB21B0940A00619C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3B36FED21B0940A00619C4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3B36FF721B0940A00619C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3B36FFD21B0947500619C4C /* NotebookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotebookTableViewController.swift; sourceTree = "<group>"; };
-		A3B36FFF21B0948600619C4C /* NotesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesManager.swift; sourceTree = "<group>"; };
-		A3B3700221B0948600619C4C /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
-		A3B3700321B0948600619C4C /* RealmDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDataModel.swift; sourceTree = "<group>"; };
-		A3B3700421B0948600619C4C /* NoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
 		A3B3700A21B094A900619C4C /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
 		A3B3700C21B094D400619C4C /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		A3B3700D21B094D400619C4C /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		A3B3701321B096C800619C4C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A3B3701421B096C800619C4C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3B3702621B0A6B600619C4C /* NotebookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotebookTableViewController.swift; sourceTree = "<group>"; };
+		A3B3702721B0A6B700619C4C /* RealmDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDataModel.swift; sourceTree = "<group>"; };
+		A3B3702821B0A6B700619C4C /* NoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
+		A3B3702921B0A6B700619C4C /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		A3B3702A21B0A6B700619C4C /* NotesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,15 +88,14 @@
 			isa = PBXGroup;
 			children = (
 				A3B36FEB21B0940A00619C4C /* AppDelegate.swift */,
-				A3B36FED21B0940A00619C4C /* ViewController.swift */,
-				A3B36FFF21B0948600619C4C /* NotesManager.swift */,
-				A3B3700421B0948600619C4C /* NoteTableViewController.swift */,
-				A3B3700221B0948600619C4C /* NoteViewController.swift */,
-				A3B3700321B0948600619C4C /* RealmDataModel.swift */,
+				A3B3702621B0A6B600619C4C /* NotebookTableViewController.swift */,
+				A3B3702A21B0A6B700619C4C /* NotesManager.swift */,
+				A3B3702821B0A6B700619C4C /* NoteTableViewController.swift */,
+				A3B3702921B0A6B700619C4C /* NoteViewController.swift */,
+				A3B3702721B0A6B700619C4C /* RealmDataModel.swift */,
 				A3B3700A21B094A900619C4C /* assets.xcassets */,
 				A3B3701421B096C800619C4C /* LaunchScreen.storyboard */,
 				A3B3701321B096C800619C4C /* Main.storyboard */,
-				A3B36FFD21B0947500619C4C /* NotebookTableViewController.swift */,
 				A3B36FF721B0940A00619C4C /* Info.plist */,
 			);
 			path = RealmDB;
@@ -176,12 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3B36FFE21B0947500619C4C /* NotebookTableViewController.swift in Sources */,
-				A3B3700521B0948600619C4C /* NotesManager.swift in Sources */,
-				A3B36FEE21B0940A00619C4C /* ViewController.swift in Sources */,
-				A3B3700821B0948600619C4C /* RealmDataModel.swift in Sources */,
-				A3B3700921B0948600619C4C /* NoteTableViewController.swift in Sources */,
-				A3B3700721B0948600619C4C /* NoteViewController.swift in Sources */,
+				A3B3702B21B0A6B700619C4C /* NotebookTableViewController.swift in Sources */,
+				A3B3702F21B0A6B700619C4C /* NotesManager.swift in Sources */,
+				A3B3702D21B0A6B700619C4C /* NoteTableViewController.swift in Sources */,
+				A3B3702C21B0A6B700619C4C /* RealmDataModel.swift in Sources */,
+				A3B3702E21B0A6B700619C4C /* NoteViewController.swift in Sources */,
 				A3B36FEC21B0940A00619C4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -37,11 +37,10 @@ class NoteTableViewController: UITableViewController {
     
     func loadData(){
         if let notebook = notebookObject {
-            if let notes = NotesManager.shared.getNotes(notebook) {
-                notesArray = notes
-                self.tableView.reloadData()
-            }
+            notesArray = NotesManager.shared.getNotes(notebook)!
+            self.tableView.reloadData()
         }
+        
     }
     
 
